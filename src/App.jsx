@@ -6,14 +6,6 @@ import MovieCard from './MovieCard'
 
 const API_URL = 'http://www.omdbapi.com/?apikey=280f662f'
 
-const movie1 = {
-    "Title": "The Avengers",
-    "Year": "1961–1969",
-    "imdbID": "tt0054518",
-    "Type": "series",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMDhhYWIxMzYtNTY2Zi00MTZiLWI2ZDUtYjNiNTY5YzA5MWNkXkEyXkFqcGc@._V1_SX300.jpg"
-}
-
 const App = () =>{
 
   const [movies, setmovies] = useState([]);
